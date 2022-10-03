@@ -9,6 +9,11 @@ export default {
       type: "string",
     },
     {
+      name: "tagline",
+      title: "Tagline",
+      type: "string",
+    },
+    {
       name: "slug",
       title: "Slug",
       type: "slug",
@@ -16,6 +21,11 @@ export default {
         source: "title",
         maxLength: 96,
       },
+    },
+    {
+      name: "website",
+      title: "Website",
+      type: "url",
     },
     {
       name: "category",
@@ -44,8 +54,13 @@ export default {
       type: "datetime",
     },
     {
-      name: "body",
-      title: "Body",
+      name: "overview",
+      title: "Overview",
+      type: "blockContent",
+    },
+    {
+      name: "features",
+      title: "Features",
       type: "blockContent",
     },
     {
